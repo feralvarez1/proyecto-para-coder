@@ -1,197 +1,165 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
 
-body{
-    font-family: "BebasNeue-Regular";
-    background-image: url(../assets/mercado-golosinas-ok.jpg);
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 15px;
-}
-@font-face{
-    font-family: "BebasNeue-Regular";
-src: url(../assets/BebasNeue-Regular.ttf);
-}
+body {
+  font-family: "BebasNeue-Regular";
+  background-image: url(../assets/mercado-golosinas-ok.jpg);
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px; }
 
-.info{
-    padding: 25px;
-    margin: 50px;
-}
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url(../assets/BebasNeue-Regular.ttf); }
 
+.info {
+  padding: 25px;
+  margin: 50px; }
 
-.index{
-    padding: 30px;
-    font-size: 1.5rem;
-    background-color: rgba(88, 133, 255, 0.829);
-    color: white;
-    background-size: cover;
-    
-}
+.index {
+  padding: 30px;
+  font-size: 1.5rem;
+  background-color: rgba(88, 133, 255, 0.829);
+  color: white;
+  background-size: cover; }
 
-.index-rojo{
-    padding: 30px;
-    font-size: 1.5rem;
-    background-color: rgba(248, 61, 61, 0.829);
-    color: white;
-    background-size: cover;
-}
+.index-rojo {
+  padding: 30px;
+  font-size: 1.5rem;
+  background-color: rgba(248, 61, 61, 0.829);
+  color: white;
+  background-size: cover; }
 
-h2{
-    font-size: 2rem;
-    padding: 25px;
-    text-align: center;
-    background-color: rgba(88, 133, 255, 0.829);
-    color: white;
-   background-size: cover;
-}
+h2 {
+  font-size: 2rem;
+  padding: 25px;
+  text-align: center;
+  background-color: rgba(88, 133, 255, 0.829);
+  color: white;
+  background-size: cover; }
 
-footer{
-    padding: 25px;
-    text-align: center;
-    margin-top: 25px;
+footer {
+  padding: 25px;
+  text-align: center;
+  margin-top: 25px; }
 
-}
-#top{
-    display: block;
-    margin: auto;
-    width: 350px;
-}
+#top {
+  display: block;
+  margin: auto;
+  width: 350px; }
 
-nav{
-    text-align: center;
-}
+nav {
+  text-align: center; }
 
-.menu{
-    list-style: none;
-    background-color: rgba(0, 255, 0, 0.671);
-    padding: 0;
-    width: 90%;
-    margin: 10px auto;
+.menu {
+  list-style: none;
+  background-color: rgba(0, 255, 0, 0.671);
+  padding: 0;
+  width: 90%;
+  margin: 10px auto; }
 
-}
+.menu .item {
+  display: inline-block;
+  position: relative;
+  font-size: 1.2rem;
+  text-align: center; }
 
-.menu .item{
-    display: inline-block;
-    position: relative;
-    font-size: 1.2rem;
-    text-align: center;
-}
+.menu .submenu {
+  position: absolute;
+  display: none;
+  list-style: none; }
 
-.menu .submenu{
-    position: absolute;
-    display: none;
-    list-style: none;
-}
+.menu .submenu .sub_i {
+  display: block;
+  font-size: 1.2rem;
+  padding: auto; }
 
-.menu .submenu .sub_i{
-    display: block;
-    font-size: 1.2rem;
-    padding: auto;
-}
 .menu.item {
-color:rgba(0, 119, 255, 0.829);
-text-decoration: none;
+  color: rgba(0, 119, 255, 0.829);
+  text-decoration: none; }
 
-}
+.menu .item a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-weight: bolder;
+  display: inline-block; }
 
-.menu .item a{
-    color: white;
-    text-decoration: none;
-    padding: 20px;
-    font-weight: bolder;
-    display: inline-block;
+.menu .item a:hover {
+  color: white; }
 
-}
-.menu .item a:hover{
-    color: white;
-}
+.menu .item:hover .submenu {
+  display: block;
+  color: white; }
 
-.menu .item:hover .submenu{
-    display: block;
-    color:white ;
+.menu .item:hover a {
+  background-color: #00ff62; }
 
-}
+.letra {
+  color: blue; }
 
-.menu .item:hover a{
-    background-color: rgb(0, 255, 98)
-}
+.proximamente {
+  padding: 30px;
+  margin: 50px; }
 
-.letra{
-    color: blue;
-}
+.carousel-inner {
+  padding: 50px; }
 
-.proximamente{
-    padding: 30px;
-    margin:50px
-}
+.info-comidas {
+  font-size: 1.5rem;
+  color: white;
+  background-size: cover;
+  background-color: black;
+  background-color: black; }
 
-.carousel-inner{
-    padding: 50px;
-}
+h5 {
+  background-color: blue; }
 
-.info-comidas{
-    font-size: 1.5rem;
-    color: white;
-    background-size: cover;
-    background-color: black;
-}
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
 
-h5{
-    background-color: blue;
-}
+.catalogo {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-color: rgba(0, 119, 255, 0.829);
+  justify-content: center;
+  padding: 15px; }
 
-.container{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+.precio {
+  color: white;
+  background-color: rgba(0, 119, 255, 0.829); }
 
-.catalogo{
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px;
-    color: white;
-    background-color: rgba(0, 119, 255, 0.829);
-    justify-content: center;
-    padding: 15px;
-}
+.caja img {
+  width: 220px; }
 
-.precio{
-    color: white;
-    background-color: rgba(0, 119, 255, 0.829); 
+.caja {
+  margin: 15px;
+  padding: 15px; }
 
-}
+h5 {
+  background-color: blue; }
 
-.caja img{
-    width: 220px;
-}
+.catalogo-rojo {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-color: rgba(248, 61, 61, 0.829);
+  justify-content: center;
+  padding: 15px; }
 
-.caja{
-    margin: 15px;
-    padding: 15px;
-
-}
-
-.catalogo-rojo{
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px;
-    color: white;
-    background-color: rgba(248, 61, 61, 0.829);
-    justify-content: center;
-    padding: 15px;
-}
-
-.precio-rojo{
-    color: white;
-    background-color: rgba(248, 61, 61, 0.829)
-}
+.precio-rojo {
+  color: white;
+  background-color: rgba(248, 61, 61, 0.829); }
